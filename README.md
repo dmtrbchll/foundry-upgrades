@@ -64,3 +64,6 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### Upgradeable proxies
+We can kind of escape function clashes with UUPS (compared to Transparent) proxies since all of the functions (such as upgrading the proxy) are in the implementation contract
